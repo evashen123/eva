@@ -12,3 +12,4 @@ def classify(features_train, labels_train):
  clf.fit(features_train, labels_train)
  pred=clf.predict(features_train)
  print pred
+print '123123123'
